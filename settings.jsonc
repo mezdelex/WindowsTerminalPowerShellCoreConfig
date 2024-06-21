@@ -3,13 +3,6 @@
         // Clipboard Management
         {
             "command": {
-                "action": "cut",
-                "singleLine": false
-            },
-            "keys": "ctrl+x"
-        },
-        {
-            "command": {
                 "action": "copy",
                 "singleLine": false
             },
