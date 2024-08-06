@@ -1,182 +1,175 @@
 {
   "actions": [
-    // Clipboard Management
     {
       "command": {
         "action": "copy",
-        "singleLine": false,
+        "singleLine": false
       },
-      "keys": "ctrl+c",
+      "keys": "ctrl+c"
     },
     {
       "command": {
-        "action": "paste",
+        "action": "paste"
       },
-      "keys": "ctrl+v",
-    },
-    // Panes Management
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "up",
-      },
-      "keys": "ctrl+alt+up",
+      "keys": "ctrl+v"
     },
     {
       "command": {
         "action": "splitPane",
-        "split": "down",
+        "split": "up"
       },
-      "keys": "ctrl+alt+down",
+      "keys": "ctrl+alt+up"
     },
     {
       "command": {
         "action": "splitPane",
-        "split": "left",
+        "split": "down"
       },
-      "keys": "ctrl+alt+left",
+      "keys": "ctrl+alt+down"
     },
     {
       "command": {
         "action": "splitPane",
-        "split": "right",
+        "split": "left"
       },
-      "keys": "ctrl+alt+right",
+      "keys": "ctrl+alt+left"
     },
     {
       "command": {
-        "action": "closePane",
+        "action": "splitPane",
+        "split": "right"
       },
-      "keys": "ctrl+w",
-    },
-    // Panes Resizing
-    {
-      "command": {
-        "action": "resizePane",
-        "direction": "up",
-      },
-      "keys": "alt+shift+up",
+      "keys": "ctrl+alt+right"
     },
     {
       "command": {
-        "action": "resizePane",
-        "direction": "down",
+        "action": "closePane"
       },
-      "keys": "alt+shift+down",
+      "keys": "ctrl+w"
     },
     {
       "command": {
         "action": "resizePane",
-        "direction": "left",
+        "direction": "up"
       },
-      "keys": "alt+shift+left",
+      "keys": "alt+shift+up"
     },
     {
       "command": {
         "action": "resizePane",
-        "direction": "right",
+        "direction": "down"
       },
-      "keys": "alt+shift+right",
-    },
-    // Panes Scrolling
-    {
-      "command": {
-        "action": "scrollUp",
-      },
-      "keys": "shift+up",
+      "keys": "alt+shift+down"
     },
     {
       "command": {
-        "action": "scrollDown",
+        "action": "resizePane",
+        "direction": "left"
       },
-      "keys": "shift+down",
+      "keys": "alt+shift+left"
     },
     {
       "command": {
-        "action": "scrollUpPage",
+        "action": "resizePane",
+        "direction": "right"
       },
-      "keys": "pgup",
+      "keys": "alt+shift+right"
     },
     {
       "command": {
-        "action": "scrollDownPage",
+        "action": "scrollUp"
       },
-      "keys": "pgdn",
+      "keys": "shift+up"
     },
     {
       "command": {
-        "action": "scrollToTop",
+        "action": "scrollDown"
       },
-      "keys": "ctrl+home",
+      "keys": "shift+down"
     },
     {
       "command": {
-        "action": "scrollToBottom",
+        "action": "scrollUpPage"
       },
-      "keys": "ctrl+end",
-    },
-    // Panes Selection
-    {
-      "command": {
-        "action": "moveFocus",
-        "direction": "up",
-      },
-      "keys": "alt+up",
+      "keys": "pgup"
     },
     {
       "command": {
-        "action": "moveFocus",
-        "direction": "down",
+        "action": "scrollDownPage"
       },
-      "keys": "alt+down",
+      "keys": "pgdn"
+    },
+    {
+      "command": {
+        "action": "scrollToTop"
+      },
+      "keys": "ctrl+home"
+    },
+    {
+      "command": {
+        "action": "scrollToBottom"
+      },
+      "keys": "ctrl+end"
     },
     {
       "command": {
         "action": "moveFocus",
-        "direction": "left",
+        "direction": "up"
       },
-      "keys": "alt+left",
+      "keys": "alt+up"
     },
     {
       "command": {
         "action": "moveFocus",
-        "direction": "right",
+        "direction": "down"
       },
-      "keys": "alt+right",
+      "keys": "alt+down"
     },
-    // Settings
     {
       "command": {
-        "action": "openSettings",
+        "action": "moveFocus",
+        "direction": "left"
       },
-      "keys": "ctrl+comma",
+      "keys": "alt+left"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "right"
+      },
+      "keys": "alt+right"
+    },
+    {
+      "command": {
+        "action": "openSettings"
+      },
+      "keys": "ctrl+comma"
     },
     {
       "command": {
         "action": "openSettings",
-        "target": "defaultsFile",
+        "target": "defaultsFile"
       },
-      "keys": "ctrl+alt+comma",
-    },
-    // Tabs Management
-    {
-      "command": {
-        "action": "newTab",
-      },
-      "keys": "ctrl+t",
+      "keys": "ctrl+alt+comma"
     },
     {
       "command": {
-        "action": "nextTab",
+        "action": "newTab"
       },
-      "keys": "ctrl+tab",
+      "keys": "ctrl+t"
     },
     {
       "command": {
-        "action": "prevTab",
+        "action": "nextTab"
       },
-      "keys": "ctrl+shift+tab",
+      "keys": "ctrl+tab"
     },
+    {
+      "command": {
+        "action": "prevTab"
+      },
+      "keys": "ctrl+shift+tab"
+    }
   ],
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "profiles": {
@@ -185,22 +178,22 @@
       "copyFormatting": false,
       "copyOnSelect": false,
       "cursorShape": "filledBox",
-      "fontFace": "Delugia",
+      "fontFace": "Delugia"
     },
     "list": [
       {
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "name": "PowerShell",
-        "source": "Windows.Terminal.PowershellCore",
+        "source": "Windows.Terminal.PowershellCore"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "hidden": false,
         "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure",
-      },
-    ],
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
   },
   "schemes": [
     {
@@ -224,8 +217,8 @@
       "red": "#CC241D",
       "selectionBackground": "#928374",
       "white": "#A89984",
-      "yellow": "#D79921",
-    },
+      "yellow": "#D79921"
+    }
   ],
   "theme": "Gruvbox",
   "themes": [
@@ -233,15 +226,15 @@
       "name": "Gruvbox",
       "tab": {
         "background": "#282828",
-        "showCloseButton": "never",
+        "showCloseButton": "never"
       },
       "tabRow": {
         "background": "#3C3836",
-        "unfocusedBackground": "#3C3836",
+        "unfocusedBackground": "#3C3836"
       },
       "window": {
-        "applicationTheme": "dark",
-      },
-    },
-  ],
+        "applicationTheme": "dark"
+      }
+    }
+  ]
 }
